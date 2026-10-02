@@ -1,0 +1,28 @@
+{
+  "family_id": "cf_search_and_rescue",
+  "schema_version": "challenge_family_seed_file.v1",
+  "type_seeds": {
+    "type1_city": [
+      1000003
+    ],
+    "type2_open": [
+      1000014
+    ],
+    "type3_mountain": [
+      1000005
+    ],
+    "type4_village": [
+      1000000,
+      1000001,
+      1000028,
+      1000029,
+      1000030
+    ],
+    "type5_warehouse": [
+      1000002
+    ],
+    "type6_forest": [
+      1000008
+    ]
+  }
+}

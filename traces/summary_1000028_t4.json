@@ -1,0 +1,18 @@
+{
+  "seed": 1000028,
+  "type": 4,
+  "success": true,
+  "failure_reason": "NONE",
+  "label": "SUCCESS",
+  "sim_time": 20.88,
+  "tour_start_s": null,
+  "first_visible_s": 8.459999999999908,
+  "visible_s": 8.5,
+  "visible_while_tour_s": 0.0,
+  "in_frustum_s": 8.62,
+  "fov_deg": 88.5,
+  "closest_horiz_m": 0.32,
+  "closest_at_s": 20.879999999999644,
+  "max_dwell_s": 2.0,
+  "csv": "traces/trace_1000028_t4.csv"
+}

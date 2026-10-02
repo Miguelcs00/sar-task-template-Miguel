@@ -1,0 +1,646 @@
+{
+  "batch_stats": [
+    {
+      "batch_index": 8,
+      "elapsed_sec": 160.5254635810852,
+      "seed_count": 1,
+      "seed_processing_sec": 154.7081835269928,
+      "seeds": [
+        1000002
+      ],
+      "startup_overhead_sec": 5.817280054092407,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 9,
+      "elapsed_sec": 246.69512796401978,
+      "seed_count": 1,
+      "seed_processing_sec": 240.99665212631226,
+      "seeds": [
+        1000008
+      ],
+      "startup_overhead_sec": 5.6984758377075195,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 1,
+      "elapsed_sec": 95.49593424797058,
+      "seed_count": 1,
+      "seed_processing_sec": 94.57881546020508,
+      "seeds": [
+        1000014
+      ],
+      "startup_overhead_sec": 0.9171187877655029,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 2,
+      "elapsed_sec": 291.5963397026062,
+      "seed_count": 1,
+      "seed_processing_sec": 285.4211995601654,
+      "seeds": [
+        1000005
+      ],
+      "startup_overhead_sec": 6.175140142440796,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 0,
+      "elapsed_sec": 113.38936614990234,
+      "seed_count": 1,
+      "seed_processing_sec": 112.14335751533508,
+      "seeds": [
+        1000003
+      ],
+      "startup_overhead_sec": 1.2460086345672607,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 3,
+      "elapsed_sec": 385.3302056789398,
+      "seed_count": 1,
+      "seed_processing_sec": 379.2381098270416,
+      "seeds": [
+        1000000
+      ],
+      "startup_overhead_sec": 6.092095851898193,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 4,
+      "elapsed_sec": 245.44531559944153,
+      "seed_count": 1,
+      "seed_processing_sec": 244.11268639564514,
+      "seeds": [
+        1000001
+      ],
+      "startup_overhead_sec": 1.3326292037963867,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 5,
+      "elapsed_sec": 233.51116728782654,
+      "seed_count": 1,
+      "seed_processing_sec": 232.32766604423523,
+      "seeds": [
+        1000028
+      ],
+      "startup_overhead_sec": 1.1835012435913086,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 7,
+      "elapsed_sec": 302.8246314525604,
+      "seed_count": 1,
+      "seed_processing_sec": 301.6566152572632,
+      "seeds": [
+        1000030
+      ],
+      "startup_overhead_sec": 1.1680161952972412,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 6,
+      "elapsed_sec": 409.4137167930603,
+      "seed_count": 1,
+      "seed_processing_sec": 408.3065903186798,
+      "seeds": [
+        1000029
+      ],
+      "startup_overhead_sec": 1.1071264743804932,
+      "worker_id": 0
+    }
+  ],
+  "execution_status_counts": {
+    "seed_done": 10
+  },
+  "extrapolation_1000_seeds": {
+    "estimated_avg_wall_per_seed_sec": 83.44618612073299,
+    "estimated_throughput_seeds_per_min": 0.719026270573826,
+    "estimated_wall_clock_sec": 83446.186120733,
+    "parallelism_basis": 2.4427118577698277,
+    "total_seed_worker_sec": 203834.9883227825,
+    "workers_used": 4
+  },
+  "group_results": {
+    "type1_city": [
+      {
+        "challenge_type": 1,
+        "estimated_resource_cost": {
+          "ram_mb": 1400.0
+        },
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "group": "type1_city",
+        "processing_wall_time": 112.14335751533508,
+        "score": 1.0,
+        "seed": 1000003,
+        "sim_time": 17.019999999999726,
+        "success": true,
+        "timeout_zero": false,
+        "wall_per_sim_ratio": 6.662124920675921,
+        "wall_time": 113.38936614990234
+      }
+    ],
+    "type2_open": [
+      {
+        "challenge_type": 2,
+        "estimated_resource_cost": {
+          "ram_mb": 1800.0
+        },
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "group": "type2_open",
+        "processing_wall_time": 94.57881546020508,
+        "score": 1.0,
+        "seed": 1000014,
+        "sim_time": 14.179999999999787,
+        "success": true,
+        "timeout_zero": false,
+        "wall_per_sim_ratio": 6.734551075315375,
+        "wall_time": 95.49593424797058
+      }
+    ],
+    "type3_mountain": [
+      {
+        "challenge_type": 3,
+        "estimated_resource_cost": {
+          "ram_mb": 2300.0
+        },
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "group": "type3_mountain",
+        "processing_wall_time": 285.4211995601654,
+        "score": 1.0,
+        "seed": 1000005,
+        "sim_time": 34.59999999999981,
+        "success": true,
+        "timeout_zero": false,
+        "wall_per_sim_ratio": 8.427639875797913,
+        "wall_time": 291.5963397026062
+      }
+    ],
+    "type4_village": [
+      {
+        "challenge_type": 4,
+        "estimated_resource_cost": {
+          "ram_mb": 2200.0
+        },
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "group": "type4_village",
+        "processing_wall_time": 379.2381098270416,
+        "score": 0.9627220350914572,
+        "seed": 1000000,
+        "sim_time": 50.66000000000232,
+        "success": true,
+        "timeout_zero": false,
+        "wall_per_sim_ratio": 7.6062022439581956,
+        "wall_time": 385.3302056789398
+      },
+      {
+        "challenge_type": 4,
+        "estimated_resource_cost": {
+          "ram_mb": 2200.0
+        },
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "group": "type4_village",
+        "processing_wall_time": 244.11268639564514,
+        "score": 0.9044819621556369,
+        "seed": 1000001,
+        "sim_time": 33.83999999999969,
+        "success": true,
+        "timeout_zero": false,
+        "wall_per_sim_ratio": 7.25311216310413,
+        "wall_time": 245.44531559944153
+      },
+      {
+        "challenge_type": 4,
+        "estimated_resource_cost": {
+          "ram_mb": 2200.0
+        },
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "group": "type4_village",
+        "processing_wall_time": 232.32766604423523,
+        "score": 1.0,
+        "seed": 1000028,
+        "sim_time": 31.259999999999422,
+        "success": true,
+        "timeout_zero": false,
+        "wall_per_sim_ratio": 7.469966963782177,
+        "wall_time": 233.51116728782654
+      },
+      {
+        "challenge_type": 4,
+        "estimated_resource_cost": {
+          "ram_mb": 2200.0
+        },
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "group": "type4_village",
+        "processing_wall_time": 408.3065903186798,
+        "score": 0.01,
+        "seed": 1000029,
+        "sim_time": 58.00000000000347,
+        "success": false,
+        "timeout_zero": false,
+        "wall_per_sim_ratio": 7.058857186086825,
+        "wall_time": 409.4137167930603
+      },
+      {
+        "challenge_type": 4,
+        "estimated_resource_cost": {
+          "ram_mb": 2200.0
+        },
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "group": "type4_village",
+        "processing_wall_time": 301.6566152572632,
+        "score": 0.9634464998625997,
+        "seed": 1000030,
+        "sim_time": 42.66000000000107,
+        "success": true,
+        "timeout_zero": false,
+        "wall_per_sim_ratio": 7.098561449895754,
+        "wall_time": 302.8246314525604
+      }
+    ],
+    "type5_warehouse": [
+      {
+        "challenge_type": 5,
+        "estimated_resource_cost": {
+          "ram_mb": 1900.0
+        },
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "group": "type5_warehouse",
+        "processing_wall_time": 154.7081835269928,
+        "score": 1.0,
+        "seed": 1000002,
+        "sim_time": 15.319999999999762,
+        "success": true,
+        "timeout_zero": false,
+        "wall_per_sim_ratio": 10.47816341913105,
+        "wall_time": 160.5254635810852
+      }
+    ],
+    "type6_forest": [
+      {
+        "challenge_type": 6,
+        "estimated_resource_cost": {
+          "ram_mb": 2400.0
+        },
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "group": "type6_forest",
+        "processing_wall_time": 240.99665212631226,
+        "score": 0.9301567752601929,
+        "seed": 1000008,
+        "sim_time": 24.659999999999563,
+        "success": true,
+        "timeout_zero": false,
+        "wall_per_sim_ratio": 10.003857581671701,
+        "wall_time": 246.69512796401978
+      }
+    ]
+  },
+  "group_summary": {
+    "type1_city": {
+      "avg_processing_wall_sec": 112.14335751533508,
+      "avg_score": 1.0,
+      "avg_sim_sec": 17.019999999999726,
+      "avg_wall_per_sim_ratio": 6.662124920675921,
+      "avg_wall_sec": 113.38936614990234,
+      "estimated_cost": {
+        "ram_mb": 1400.0
+      },
+      "execution_success_count": 1,
+      "execution_success_rate": 1.0,
+      "max_wall_sec": 113.38936614990234,
+      "median_wall_sec": 113.38936614990234,
+      "p90_wall_sec": 113.38936614990234,
+      "seed_count": 1,
+      "success_count": 1,
+      "success_rate": 1.0
+    },
+    "type2_open": {
+      "avg_processing_wall_sec": 94.57881546020508,
+      "avg_score": 1.0,
+      "avg_sim_sec": 14.179999999999787,
+      "avg_wall_per_sim_ratio": 6.734551075315375,
+      "avg_wall_sec": 95.49593424797058,
+      "estimated_cost": {
+        "ram_mb": 1800.0
+      },
+      "execution_success_count": 1,
+      "execution_success_rate": 1.0,
+      "max_wall_sec": 95.49593424797058,
+      "median_wall_sec": 95.49593424797058,
+      "p90_wall_sec": 95.49593424797058,
+      "seed_count": 1,
+      "success_count": 1,
+      "success_rate": 1.0
+    },
+    "type3_mountain": {
+      "avg_processing_wall_sec": 285.4211995601654,
+      "avg_score": 1.0,
+      "avg_sim_sec": 34.59999999999981,
+      "avg_wall_per_sim_ratio": 8.427639875797913,
+      "avg_wall_sec": 291.5963397026062,
+      "estimated_cost": {
+        "ram_mb": 2300.0
+      },
+      "execution_success_count": 1,
+      "execution_success_rate": 1.0,
+      "max_wall_sec": 291.5963397026062,
+      "median_wall_sec": 291.5963397026062,
+      "p90_wall_sec": 291.5963397026062,
+      "seed_count": 1,
+      "success_count": 1,
+      "success_rate": 1.0
+    },
+    "type4_village": {
+      "avg_processing_wall_sec": 313.128333568573,
+      "avg_score": 0.7681300994219387,
+      "avg_sim_sec": 43.2840000000012,
+      "avg_wall_per_sim_ratio": 7.2973400013654155,
+      "avg_wall_sec": 315.3050073623657,
+      "estimated_cost": {
+        "ram_mb": 2200.0
+      },
+      "execution_success_count": 5,
+      "execution_success_rate": 1.0,
+      "max_wall_sec": 409.4137167930603,
+      "median_wall_sec": 302.8246314525604,
+      "p90_wall_sec": 409.4137167930603,
+      "seed_count": 5,
+      "success_count": 4,
+      "success_rate": 0.8
+    },
+    "type5_warehouse": {
+      "avg_processing_wall_sec": 154.7081835269928,
+      "avg_score": 1.0,
+      "avg_sim_sec": 15.319999999999762,
+      "avg_wall_per_sim_ratio": 10.47816341913105,
+      "avg_wall_sec": 160.5254635810852,
+      "estimated_cost": {
+        "ram_mb": 1900.0
+      },
+      "execution_success_count": 1,
+      "execution_success_rate": 1.0,
+      "max_wall_sec": 160.5254635810852,
+      "median_wall_sec": 160.5254635810852,
+      "p90_wall_sec": 160.5254635810852,
+      "seed_count": 1,
+      "success_count": 1,
+      "success_rate": 1.0
+    },
+    "type6_forest": {
+      "avg_processing_wall_sec": 240.99665212631226,
+      "avg_score": 0.9301567752601929,
+      "avg_sim_sec": 24.659999999999563,
+      "avg_wall_per_sim_ratio": 10.003857581671701,
+      "avg_wall_sec": 246.69512796401978,
+      "estimated_cost": {
+        "ram_mb": 2400.0
+      },
+      "execution_success_count": 1,
+      "execution_success_rate": 1.0,
+      "max_wall_sec": 246.69512796401978,
+      "median_wall_sec": 246.69512796401978,
+      "p90_wall_sec": 246.69512796401978,
+      "seed_count": 1,
+      "success_count": 1,
+      "success_rate": 1.0
+    }
+  },
+  "host_parallelism": "process",
+  "num_workers": 4,
+  "resource_cost_model_estimate": [
+    {
+      "group": "type1_city",
+      "ram_mb": 1400.0
+    },
+    {
+      "group": "type2_open",
+      "ram_mb": 1800.0
+    },
+    {
+      "group": "type3_mountain",
+      "ram_mb": 2300.0
+    },
+    {
+      "group": "type4_village",
+      "ram_mb": 2200.0
+    },
+    {
+      "group": "type5_warehouse",
+      "ram_mb": 1900.0
+    },
+    {
+      "group": "type6_forest",
+      "ram_mb": 2400.0
+    },
+    {
+      "group": "type7_office",
+      "ram_mb": 1900.0
+    }
+  ],
+  "run_metrics": {
+    "avg_seeds_per_container": 1.0,
+    "avg_sim_per_seed_sec": 32.22000000000047,
+    "avg_startup_overhead_per_container_sec": 3.073739242553711,
+    "avg_wall_per_seed_sec": 248.42272684574127,
+    "batch_count": 10,
+    "effective_parallelism": 2.4427118577698277,
+    "execution_success_count": 10,
+    "execution_success_rate": 1.0,
+    "median_wall_per_seed_sec": 246.07022178173065,
+    "p90_wall_per_seed_sec": 409.4137167930603,
+    "success_count": 9,
+    "throughput_per_worker_seeds_per_min": 0.14749326010457786,
+    "throughput_seeds_per_min": 0.5899730404183114,
+    "total_seed_worker_sec": 2484.2272684574127,
+    "total_startup_overhead_sec": 30.73739242553711,
+    "worker_utilization": 0.6106779644424569
+  },
+  "seed_timings_note": "wall_time includes equal share of per-container startup overhead",
+  "startup_overhead_sec": 30.73739242553711,
+  "timestamp": "2026-10-01 13:45:27",
+  "top_expensive_seeds": [
+    {
+      "challenge_type": 4,
+      "estimated_resource_cost": {
+        "ram_mb": 2200.0
+      },
+      "execution_ok": true,
+      "execution_status": "seed_done",
+      "group": "type4_village",
+      "processing_wall_time": 408.3065903186798,
+      "score": 0.01,
+      "seed": 1000029,
+      "sim_time": 58.00000000000347,
+      "success": false,
+      "timeout_zero": false,
+      "wall_per_sim_ratio": 7.058857186086825,
+      "wall_time": 409.4137167930603
+    },
+    {
+      "challenge_type": 4,
+      "estimated_resource_cost": {
+        "ram_mb": 2200.0
+      },
+      "execution_ok": true,
+      "execution_status": "seed_done",
+      "group": "type4_village",
+      "processing_wall_time": 379.2381098270416,
+      "score": 0.9627220350914572,
+      "seed": 1000000,
+      "sim_time": 50.66000000000232,
+      "success": true,
+      "timeout_zero": false,
+      "wall_per_sim_ratio": 7.6062022439581956,
+      "wall_time": 385.3302056789398
+    },
+    {
+      "challenge_type": 4,
+      "estimated_resource_cost": {
+        "ram_mb": 2200.0
+      },
+      "execution_ok": true,
+      "execution_status": "seed_done",
+      "group": "type4_village",
+      "processing_wall_time": 301.6566152572632,
+      "score": 0.9634464998625997,
+      "seed": 1000030,
+      "sim_time": 42.66000000000107,
+      "success": true,
+      "timeout_zero": false,
+      "wall_per_sim_ratio": 7.098561449895754,
+      "wall_time": 302.8246314525604
+    },
+    {
+      "challenge_type": 3,
+      "estimated_resource_cost": {
+        "ram_mb": 2300.0
+      },
+      "execution_ok": true,
+      "execution_status": "seed_done",
+      "group": "type3_mountain",
+      "processing_wall_time": 285.4211995601654,
+      "score": 1.0,
+      "seed": 1000005,
+      "sim_time": 34.59999999999981,
+      "success": true,
+      "timeout_zero": false,
+      "wall_per_sim_ratio": 8.427639875797913,
+      "wall_time": 291.5963397026062
+    },
+    {
+      "challenge_type": 6,
+      "estimated_resource_cost": {
+        "ram_mb": 2400.0
+      },
+      "execution_ok": true,
+      "execution_status": "seed_done",
+      "group": "type6_forest",
+      "processing_wall_time": 240.99665212631226,
+      "score": 0.9301567752601929,
+      "seed": 1000008,
+      "sim_time": 24.659999999999563,
+      "success": true,
+      "timeout_zero": false,
+      "wall_per_sim_ratio": 10.003857581671701,
+      "wall_time": 246.69512796401978
+    },
+    {
+      "challenge_type": 4,
+      "estimated_resource_cost": {
+        "ram_mb": 2200.0
+      },
+      "execution_ok": true,
+      "execution_status": "seed_done",
+      "group": "type4_village",
+      "processing_wall_time": 244.11268639564514,
+      "score": 0.9044819621556369,
+      "seed": 1000001,
+      "sim_time": 33.83999999999969,
+      "success": true,
+      "timeout_zero": false,
+      "wall_per_sim_ratio": 7.25311216310413,
+      "wall_time": 245.44531559944153
+    },
+    {
+      "challenge_type": 4,
+      "estimated_resource_cost": {
+        "ram_mb": 2200.0
+      },
+      "execution_ok": true,
+      "execution_status": "seed_done",
+      "group": "type4_village",
+      "processing_wall_time": 232.32766604423523,
+      "score": 1.0,
+      "seed": 1000028,
+      "sim_time": 31.259999999999422,
+      "success": true,
+      "timeout_zero": false,
+      "wall_per_sim_ratio": 7.469966963782177,
+      "wall_time": 233.51116728782654
+    },
+    {
+      "challenge_type": 5,
+      "estimated_resource_cost": {
+        "ram_mb": 1900.0
+      },
+      "execution_ok": true,
+      "execution_status": "seed_done",
+      "group": "type5_warehouse",
+      "processing_wall_time": 154.7081835269928,
+      "score": 1.0,
+      "seed": 1000002,
+      "sim_time": 15.319999999999762,
+      "success": true,
+      "timeout_zero": false,
+      "wall_per_sim_ratio": 10.47816341913105,
+      "wall_time": 160.5254635810852
+    },
+    {
+      "challenge_type": 1,
+      "estimated_resource_cost": {
+        "ram_mb": 1400.0
+      },
+      "execution_ok": true,
+      "execution_status": "seed_done",
+      "group": "type1_city",
+      "processing_wall_time": 112.14335751533508,
+      "score": 1.0,
+      "seed": 1000003,
+      "sim_time": 17.019999999999726,
+      "success": true,
+      "timeout_zero": false,
+      "wall_per_sim_ratio": 6.662124920675921,
+      "wall_time": 113.38936614990234
+    },
+    {
+      "challenge_type": 2,
+      "estimated_resource_cost": {
+        "ram_mb": 1800.0
+      },
+      "execution_ok": true,
+      "execution_status": "seed_done",
+      "group": "type2_open",
+      "processing_wall_time": 94.57881546020508,
+      "score": 1.0,
+      "seed": 1000014,
+      "sim_time": 14.179999999999787,
+      "success": true,
+      "timeout_zero": false,
+      "wall_per_sim_ratio": 6.734551075315375,
+      "wall_time": 95.49593424797058
+    }
+  ],
+  "total_seeds": 10,
+  "wall_clock_sec": 1016.9956233501434
+}
