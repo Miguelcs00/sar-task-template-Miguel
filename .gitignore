@@ -210,3 +210,14 @@ swarm_venv/
 
 # Accidental shell artifacts from malformed multiline CLI commands (repo root).
 /--*
+
+# take-home: generated / heavy
+videos/
+variants/
+patched_village_rgb/
+yield_model/
+traces/.work_*/
+results/**/traces/.work_*/
+Submission/*.zip
+!Submission/final_submission.zip
+*.mp4

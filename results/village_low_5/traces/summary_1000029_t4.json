@@ -1,0 +1,18 @@
+{
+  "seed": 1000029,
+  "type": 4,
+  "success": false,
+  "failure_reason": "OBSTACLE_COLLISION",
+  "label": "CRASH:OBSTACLE_COLLISION",
+  "sim_time": 44.1,
+  "tour_start_s": 11.999999999999833,
+  "first_visible_s": null,
+  "visible_s": 0.0,
+  "visible_while_tour_s": 0.0,
+  "in_frustum_s": 24.5,
+  "fov_deg": 90.2,
+  "closest_horiz_m": 7.23,
+  "closest_at_s": 44.08000000000129,
+  "max_dwell_s": 0.0,
+  "csv": "results/village_low_5/traces/trace_1000029_t4.csv"
+}
